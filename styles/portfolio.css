@@ -87,7 +87,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 1000px;
+    /* margin-bottom: 1000px; */
 }
 main section{
     margin-top: 130px;
@@ -136,7 +136,6 @@ main section{
 }
 .resume-container{
     display: flex;
-    gap: 50px;
 }
 .resume-item-title{
     color: #474747;
@@ -146,7 +145,7 @@ main section{
 }
 .resume-item-institute{
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .resume-item-institute, .resume-item-description{
     color: #757575;
@@ -157,5 +156,12 @@ main section{
 }
 .download-cv{
     text-align: center;
-    margin: 50px;
+    /* margin: 50px; */
 }
+footer{
+    display: flex;
+    background: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+    
